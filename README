@@ -1,0 +1,17 @@
+# Enterprise RAG Agent
+
+Built an AI Agent that answers questions from enterprise documents using RAG, LangChain, and Vector DB.
+
+## Features
+- RAG Pipeline - PDF -> Embeddings -> Semantic Search
+- AI Agent with Planning, Memory, Tool Use, Execution Loops
+- Vector Database - ChromaDB
+- FastAPI Backend + Streamlit UI
+- Handles Retail, Finance, Sales enterprise data
+
+## Tech Stack
+Python, LangChain, ChromaDB, HuggingFace, Streamlit, FastAPI
+
+## How to Run
+pip install -r requirements.txt
+streamlit run app.py
